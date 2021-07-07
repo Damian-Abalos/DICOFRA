@@ -1,0 +1,35 @@
+@import '../utilities/fonts';
+
+.section-3{
+    width: 95%;
+    margin: auto;
+    padding-bottom: 5em;
+    border-bottom: solid #E3482F 5px;
+    h3{
+        color: #E3482F;
+        font-size: 2.54em;
+        font-family: 'BasisGrotesque-Bold';
+    }
+    p{
+        font-size: 1.91em;
+        font-family: 'BasicGrotes-Regular';
+    }
+    div{
+        margin: 0 auto;
+        div{
+            display: flex;
+            flex-wrap: wrap;
+            margin: 0 auto;
+            justify-content: center;
+            align-items: baseline;
+            padding: 0 2em;
+            p{
+                font-size: 1.31em;
+                font-family: 'BasicGrotes-Bold';
+                text-align: center;
+            }
+        }
+    } 
+
+}
+

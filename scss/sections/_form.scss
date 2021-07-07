@@ -1,0 +1,50 @@
+@import '../utilities/fonts';
+
+.form{
+    margin: 5em auto;
+    .formulario input[type="text"],
+    .formulario input[type="email"]{
+        background-color: #fff;
+        border: 2px solid #000000;
+        border-radius: 12px;
+    }
+    h4{
+        color: black;
+        font-size: 3.24em;
+        font-family: 'BasicGrotes-Bold';
+        text-align: center;
+    }
+    h5{
+        text-align: center;
+        color: #E3482F;
+        font-size: 2.11em;
+        font-family: 'BasicGrotes-Regular';
+    }
+    p{
+        color: #333333;
+        font-size: 2.65em;
+        font-family: 'BasicGrotesque-Bold';
+        text-align: right;
+        margin-top: 1.3em;
+        label{
+            position: relative;
+            right: 51%;
+        }
+        input{
+            position: absolute;
+            left: 50%;
+        }
+    }  
+    button{
+        margin: 2em 0;
+        padding: 0 40px;
+        border: none;
+        border-radius: 15px;
+        background-color: red;
+        color: white;
+        font-size: 2.65em;
+        font-family: 'BasicGrotesque-Bold';
+        position: relative;
+        left: 50%;
+    } 
+}

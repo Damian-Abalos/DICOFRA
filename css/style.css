@@ -1,0 +1,381 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  position: absolute;
+}
+
+.row {
+  --bs-gutter-x: 0!important;
+}
+
+@font-face {
+  font-family: "BasicGrotesque-Bold";
+  src: url(../fonts/BasisGrotesquePro-Bold.ttf);
+}
+@font-face {
+  font-family: "BasicGrotes-Regular";
+  src: url(../fonts/BasisGrotesquePro-Regular.ttf);
+}
+@font-face {
+  font-family: "BasicGrotes-light";
+  src: url(../fonts/BasisGrotesquePro-Light.ttf);
+}
+.text-red {
+  color: #E3482F;
+}
+
+@font-face {
+  font-family: "BasicGrotesque-Bold";
+  src: url(../fonts/BasisGrotesquePro-Bold.ttf);
+}
+@font-face {
+  font-family: "BasicGrotes-Regular";
+  src: url(../fonts/BasisGrotesquePro-Regular.ttf);
+}
+@font-face {
+  font-family: "BasicGrotes-light";
+  src: url(../fonts/BasisGrotesquePro-Light.ttf);
+}
+.text-red {
+  color: #E3482F;
+}
+
+header {
+  width: 90%;
+  margin: 10em auto;
+  border-bottom: solid #E3482F 5px;
+}
+header div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 5%;
+}
+header h1 {
+  margin-top: 2em;
+  color: #E3482F;
+  text-align: center;
+  font-size: 3.76em;
+  font-family: BasicGrotesque-Bold;
+}
+header h1 span {
+  color: black;
+}
+header p {
+  margin: 1.5em auto 4em auto;
+  text-align: center;
+  font-size: 2.29em;
+  font-family: BasicGrotes-Regular;
+}
+
+@font-face {
+  font-family: "BasicGrotesque-Bold";
+  src: url(../fonts/BasisGrotesquePro-Bold.ttf);
+}
+@font-face {
+  font-family: "BasicGrotes-Regular";
+  src: url(../fonts/BasisGrotesquePro-Regular.ttf);
+}
+@font-face {
+  font-family: "BasicGrotes-light";
+  src: url(../fonts/BasisGrotesquePro-Light.ttf);
+}
+.text-red {
+  color: #E3482F;
+}
+
+.section-1 {
+  width: 90%;
+  margin: 2em auto;
+  border-bottom: solid E3482F 5px;
+}
+.section-1 div:nth-child(1) {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+.section-1 div:nth-child(1) div {
+  margin: 0 2em;
+  display: block;
+}
+.section-1 div:nth-child(1) div h2 {
+  background-color: #E3482F;
+  color: white;
+  font-size: 2.54em;
+  font-family: "BasisGrotesque-Bold";
+}
+.section-1 div:nth-child(1) div p {
+  color: black;
+  font-size: 1.59em;
+  font-family: "BasicGrotesque-Regular";
+}
+.section-1 div:nth-child(2) {
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+.section-1 div:nth-child(2) p {
+  font-size: 2.17em;
+  font-family: "BasicGrotesque-Bold";
+  width: 85%;
+  padding: 1em;
+  border: solid #E3482F 4px;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  text-align: center;
+}
+.section-1 div:nth-child(3) {
+  margin-top: 4em;
+  margin-bottom: 4em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.section-1 div:nth-child(3) img {
+  margin: 0 2em;
+}
+
+@font-face {
+  font-family: "BasicGrotesque-Bold";
+  src: url(../fonts/BasisGrotesquePro-Bold.ttf);
+}
+@font-face {
+  font-family: "BasicGrotes-Regular";
+  src: url(../fonts/BasisGrotesquePro-Regular.ttf);
+}
+@font-face {
+  font-family: "BasicGrotes-light";
+  src: url(../fonts/BasisGrotesquePro-Light.ttf);
+}
+.text-red {
+  color: #E3482F;
+}
+
+.section-2 {
+  margin-bottom: 5em;
+}
+.section-2 h2 {
+  font-size: 3.24em;
+  font-family: "BasisGrotesque-Bold";
+  width: 50%;
+  margin: 2em auto 0 auto;
+  padding-bottom: 15px;
+  color: white;
+  background-color: black;
+  text-align: center;
+  border-radius: 15px;
+  font-size: 2em;
+}
+.section-2 h2 span {
+  color: #E3482F;
+  font-size: 0.8em;
+}
+.section-2 div {
+  background-color: black;
+  margin: -10px auto 0 auto;
+  display: flex;
+  padding-top: 20px;
+  justify-content: center;
+}
+.section-2 div ul li {
+  display: flex;
+  align-items: baseline;
+  list-style: none;
+}
+.section-2 div ul li img {
+  margin: 0 1em;
+}
+.section-2 div ul li p {
+  font-size: 2.38em;
+  font-family: "BasisGrotesque-Bold";
+}
+
+@font-face {
+  font-family: "BasicGrotesque-Bold";
+  src: url(../fonts/BasisGrotesquePro-Bold.ttf);
+}
+@font-face {
+  font-family: "BasicGrotes-Regular";
+  src: url(../fonts/BasisGrotesquePro-Regular.ttf);
+}
+@font-face {
+  font-family: "BasicGrotes-light";
+  src: url(../fonts/BasisGrotesquePro-Light.ttf);
+}
+.text-red {
+  color: #E3482F;
+}
+
+.section-3 {
+  width: 95%;
+  margin: auto;
+  padding-bottom: 5em;
+  border-bottom: solid #E3482F 5px;
+}
+.section-3 h3 {
+  color: #E3482F;
+  font-size: 2.54em;
+  font-family: "BasisGrotesque-Bold";
+}
+.section-3 p {
+  font-size: 1.91em;
+  font-family: "BasicGrotes-Regular";
+}
+.section-3 div {
+  margin: 0 auto;
+}
+.section-3 div div {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: baseline;
+  padding: 0 2em;
+}
+.section-3 div div p {
+  font-size: 1.31em;
+  font-family: "BasicGrotes-Bold";
+  text-align: center;
+}
+
+@font-face {
+  font-family: "BasicGrotesque-Bold";
+  src: url(../fonts/BasisGrotesquePro-Bold.ttf);
+}
+@font-face {
+  font-family: "BasicGrotes-Regular";
+  src: url(../fonts/BasisGrotesquePro-Regular.ttf);
+}
+@font-face {
+  font-family: "BasicGrotes-light";
+  src: url(../fonts/BasisGrotesquePro-Light.ttf);
+}
+.text-red {
+  color: #E3482F;
+}
+
+.form {
+  margin: 5em auto;
+}
+.form .formulario input[type=text],
+.form .formulario input[type=email] {
+  background-color: #fff;
+  border: 2px solid #000000;
+  border-radius: 12px;
+}
+.form h4 {
+  color: black;
+  font-size: 3.24em;
+  font-family: "BasicGrotes-Bold";
+  text-align: center;
+}
+.form h5 {
+  text-align: center;
+  color: #E3482F;
+  font-size: 2.11em;
+  font-family: "BasicGrotes-Regular";
+}
+.form p {
+  color: #333333;
+  font-size: 2.65em;
+  font-family: "BasicGrotesque-Bold";
+  text-align: right;
+  margin-top: 1.3em;
+}
+.form p label {
+  position: relative;
+  right: 51%;
+}
+.form p input {
+  position: absolute;
+  left: 50%;
+}
+.form button {
+  margin: 2em 0;
+  padding: 0 40px;
+  border: none;
+  border-radius: 15px;
+  background-color: red;
+  color: white;
+  font-size: 2.65em;
+  font-family: "BasicGrotesque-Bold";
+  position: relative;
+  left: 50%;
+}
+
+@font-face {
+  font-family: "BasicGrotesque-Bold";
+  src: url(../fonts/BasisGrotesquePro-Bold.ttf);
+}
+@font-face {
+  font-family: "BasicGrotes-Regular";
+  src: url(../fonts/BasisGrotesquePro-Regular.ttf);
+}
+@font-face {
+  font-family: "BasicGrotes-light";
+  src: url(../fonts/BasisGrotesquePro-Light.ttf);
+}
+.text-red {
+  color: #E3482F;
+}
+
+footer .contacto {
+  background-color: black;
+  padding: 4em;
+}
+footer .contacto div {
+  border-bottom: solid white 4px;
+  background-color: black;
+}
+footer .contacto div p {
+  color: #E3482F;
+  font-size: 1.79em;
+  font-family: "BasicGrotes-Bold";
+}
+footer .sucursales {
+  display: flex;
+  background-color: black;
+}
+footer .sucursales div {
+  padding: 4em;
+}
+footer .sucursales div h6 {
+  color: #E3482F;
+  font-size: 1.17em;
+  font-family: "BasicGrotes-Bold";
+}
+footer .sucursales div p {
+  color: white;
+  font-size: 0.96em;
+  font-family: "BasicGrotes-Regular";
+}
+footer .siguenos {
+  background-color: #E3482F;
+  display: flex;
+}
+footer .siguenos div {
+  margin: auto;
+}
+footer .siguenos div p {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  color: white;
+  font-size: 3em;
+  font-family: "BasicGrotes-Bold";
+  text-align: center;
+}
+footer .siguenos div div {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer .siguenos div div img {
+  margin: 2.5em;
+}
+
+/*# sourceMappingURL=style.css.map */

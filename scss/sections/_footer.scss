@@ -1,0 +1,64 @@
+@import '../utilities/fonts.scss';
+
+footer{
+    .contacto{
+        background-color: black;
+        padding: 4em;
+        div{
+            border-bottom: solid white 4px;
+            background-color: black;
+        p{
+            color: #E3482F;
+            font-size: 1.79em;
+            font-family: 'BasicGrotes-Bold';
+        }
+        }
+        
+    }
+    .sucursales{
+        display: flex;
+        background-color: black;
+        div{
+            padding: 4em;
+            h6{
+                color: #E3482F;
+                font-size: 1.17em;
+                font-family: 'BasicGrotes-Bold';
+            }
+            p{
+                color: white;
+                font-size: 0.96em;
+                font-family: 'BasicGrotes-Regular';
+            }
+        }
+        
+
+    }
+    .siguenos{
+        background-color: #E3482F;
+        display: flex;
+        div{
+            margin: auto;
+            p{
+                display: flex;
+                justify-content: center;
+                align-items: flex-end;
+                color: white;
+                font-size: 3em;
+                font-family: 'BasicGrotes-Bold';
+                text-align: center;
+            }
+            div{
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                img{
+                    margin: 2.5em;
+                }
+            }
+
+        }
+        
+    }
+}
